@@ -13,7 +13,7 @@ public class MyLinkedList<T> implements MyLinkedListInterface<T> {
         MyNode<T> prev;
         MyNode<T> next;
 
-        public MyNode (T element, MyNode<T> prev, MyNode<T> next) {
+        public MyNode(T element, MyNode<T> prev, MyNode<T> next) {
             this.element = element;
             this.prev = prev;
             this.next = next;
@@ -175,6 +175,6 @@ public class MyLinkedList<T> implements MyLinkedListInterface<T> {
 
     @Override
     public boolean isEmpty() {
-        return size() == 0? true : false;
+        return size() == 0 ? true : false;
     }
 }
