@@ -22,7 +22,7 @@ public class MyLinkedList<T> implements MyLinkedListInterface<T> {
 
     public MyNode<T> getNext(MyNode<T> currentNode) {
         if (currentNode == null) {
-            return currentNode;
+            return null;
         } else {
             return currentNode.next;
         }
@@ -30,7 +30,7 @@ public class MyLinkedList<T> implements MyLinkedListInterface<T> {
 
     public MyNode<T> getPrev(MyNode<T> currentNode) {
         if (currentNode == null) {
-            return currentNode;
+            return null;
         } else {
             return currentNode.prev;
         }
